@@ -1,0 +1,105 @@
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+
+/* Colors */
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.section-margin {
+    margin: 6em 0;
+}
+
+/* Text styles */
+.first-text{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+.second-text {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    margin: 10px 0;
+}
+
+.third-text {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 0;
+    color: #8C8C8C;
+    line-height: 24px;
+}
+
+.fourth-text {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #F78065;
+}
+
+/* Button */
+
+.btn{
+    padding: 15px 15px;
+    color: white;
+    background: #F78065;
+    border: none;
+    width: 27%;
+}
+
+/* Icons */
+
+.icon{
+    margin: 60px 0;
+}

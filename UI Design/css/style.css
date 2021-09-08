@@ -1,0 +1,194 @@
+/* Slider section start */
+
+#slider {
+    background-image: url(../img/slider-bg.jpg);
+    height: 650px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    padding: 40px;
+}
+
+.navbar-box{
+    color: white;
+    font-size: 40px;
+}
+
+.navbar-users{
+    background: white;
+    text-align: center;
+    border-radius: 37px;
+    width: 79%;
+    padding: 8px 4px;
+}
+
+.fa-chevron-down{
+    font-size: 13px;
+    margin: 0px 6px;
+}
+
+.fa-user-circle{
+    font-size: 31px;
+    color: #F78065;
+}
+
+.slider-content{
+    background: white;
+    padding: 30px 50px;
+    box-shadow: 0px 4px 100px 0px #0000001a;
+    position: absolute;
+    left: 5%;
+    top: 61%;
+    width: 46%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider-content h1{
+    font-size: 39px;
+}
+
+.slider-content p{
+    font-size: 20px;
+}
+
+.fa-globe{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Slider section end */
+
+/* Tips section start */
+
+.tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 30px;
+}
+
+.tips-item-photo img{
+    height: 220px;
+    margin: 30px;
+}
+
+
+/* Tips section end */
+
+/* Facility section start */
+
+.facility {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.facility-item a{
+    text-decoration: none;
+}
+
+/* Facility section end */
+
+/* Community section start */
+
+.community {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.community-photo img {
+    width: 100%;
+    height: 322px;
+}
+
+.community-item a{
+    text-decoration: none;
+    color: #F78065;
+}
+
+.community-item p{
+    margin: 10px 0;
+}
+
+.fa-play{
+    margin-right: 10px;
+}
+
+.community-content .btn{
+    width: 37%;
+}
+
+/* Community section end */
+
+
+/* Advantages section start */
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+/* Advantages section end */
+
+
+/* Footer section start */
+
+#footer {
+    background: #e8e8e8;
+    padding-top: 50px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.footer-title{
+    font-size: 48px;
+}
+
+.footer-title h2{
+    width: 10%;
+}
+
+
+.footer-item h4{
+    color: black;
+}
+
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-nav ul li{
+    margin: 0 10px;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+
+
+
+/* Footer section end */
