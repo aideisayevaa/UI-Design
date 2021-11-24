@@ -1,0 +1,417 @@
+@media screen and (max-width:576px) {
+
+    .container {
+        width: 85%;
+    }
+
+    #navbar {
+        padding: 15px;
+    }
+
+    .navbar-menu ul {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 126px;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+        transition: .5s ease-in;
+        z-index: 9;
+    }
+
+    .navbar-menu ul li {
+        display: none;
+        padding: 20px;
+        cursor: pointer;
+        background: rgb(122, 122, 122);
+        color: black;
+    }
+
+    .navbar-menu ul li a {
+        font-size: 18px;
+    }
+
+
+    input[type="checkbox"]:checked~.navbar-menu ul li {
+        display: block;
+    }
+
+    .icon-burger {
+        display: block;
+    }
+
+    #navbar .col-1 {
+        width: 20%;
+    }
+
+    #navbar .col-5 {
+        width: 0%;
+    }
+
+    #navbar .col-4 {
+        width: 59%;
+    }
+
+    #navbar .col-1 {
+        width: 16%;
+    }
+
+    .navbar-logo img {
+        width: 93%;
+    }
+
+    .navbar-search {
+        display: block;
+        width: 70%;
+    }
+
+    .navbar-search input {
+        width: 70%;
+    }
+
+    .navbar-search select {
+        display: none;
+    }
+
+    .navbar-icons {
+        display: flex;
+    }
+
+    #header {
+        background-position-y: 10%;
+        margin-left: 20px;
+    }
+
+    .header-content {
+        font-size: 9px;
+    }
+
+    .category {
+        grid-template-columns: 1fr;
+    }
+
+    .sales-title {
+        font-size: 12px;
+    }
+
+    .sales-content {
+        grid-template-columns: 1fr 1fr;
+        font-size: 10px;
+    }
+
+    .sales-item p {
+        font-size: 11px;
+    }
+
+    .sales-circles {
+        left: 17%;
+    }
+
+    .sales-circles i {
+        padding: 6px;
+        margin: 0 3px;
+    }
+
+    #banner {
+        font-size: 9px;
+    }
+
+    .banner-content h2,
+    .banner-content p {
+        width: 100%;
+    }
+
+    /* Story page */
+
+    #story {
+        height: 700px;
+    }
+
+    .story {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Contact page */
+
+    #contact {
+        height: 1192px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        font-size: 13px;
+    }
+
+    .contact-content {
+        padding: 31px;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+    }
+
+    .contact-email {
+        font-size: 16px;
+    }
+
+    .contact-icons i {
+        padding: 8px 0px;
+        font-size: 1.1em;
+        width: 34px;
+    }
+
+    .form-title::after {
+        display: none;
+    }
+
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-title {
+        font-size: 1.3em;
+    }
+
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .navbar-menu ul {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 126px;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+        transition: .5s ease-in;
+        z-index: 9;
+    }
+
+    .navbar-menu ul li {
+        display: none;
+        padding: 20px;
+        cursor: pointer;
+        background: rgb(122, 122, 122);
+        color: black;
+    }
+
+    .navbar-menu ul li a {
+        font-size: 18px;
+    }
+
+
+    input[type="checkbox"]:checked~.navbar-menu ul li {
+        display: block;
+    }
+
+    .icon-burger {
+        display: block;
+    }
+
+    #navbar .col-1 {
+        width: 16%;
+    }
+
+    #navbar .col-5 {
+        width: 0%;
+    }
+
+    #navbar .col-4 {
+        width: 50%;
+    }
+
+    #navbar .col-1 {
+        width: 16%;
+    }
+
+    #header {
+        background-position-y: 10%;
+    }
+
+    .category {
+        grid-template-columns: 1fr;
+    }
+
+    .sales-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sales-circles {
+        left: 17%;
+    }
+
+    .sales-circles i {
+        padding: 8px;
+        margin: 0 3px;
+    }
+
+    /* Story page */
+
+    #story {
+        height: 522px;
+    }
+
+    .story {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Contact page */
+
+    #contact {
+        height: 1320px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+    }
+
+    .form {
+        grid-template-columns: 2fr;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+    .navbar-menu ul {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 126px;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+        transition: .5s ease-in;
+        z-index: 9;
+    }
+
+    .navbar-menu ul li {
+        display: none;
+        padding: 20px;
+        cursor: pointer;
+        background: rgb(122, 122, 122);
+        color: black;
+    }
+
+    .navbar-menu ul li a {
+        font-size: 18px;
+    }
+
+
+    input[type="checkbox"]:checked~.navbar-menu ul li {
+        display: block;
+    }
+
+    .icon-burger {
+        display: block;
+    }
+
+    #navbar .col-1 {
+        width: 16%;
+    }
+
+    #navbar .col-5 {
+        width: 0%;
+    }
+
+    #navbar .col-4 {
+        width: 50%;
+    }
+
+    #navbar .col-1 {
+        width: 16%;
+    }
+
+    #header {
+        background-position-y: 10%;
+    }
+
+    .sales-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sales-circles {
+        left: 23%;
+    }
+
+    .sales-circles i {
+        padding: 8px;
+        margin: 0 3px;
+    }
+
+    /* Story page */
+
+    #story {
+        height: 522px;
+    }
+
+    .story {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Contact page */
+
+    #contact {
+        height: 800px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+
+
+    #story {
+        height: 522px;
+    }
+
+    .story {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Contact page */
+
+    #contact {
+        height: 800px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+    }
+
+}
