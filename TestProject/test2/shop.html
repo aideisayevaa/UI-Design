@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/slide/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="./js/slide/jquery-func.js" type="text/javascript"></script>
+    <script src="./js/slide/jquery.jcarousel.pack.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- Navbar section start -->
+    <nav class='navbar navbar-expand-lg navbar-light '>
+        <div class='container-fluid'>
+            <button class='btn navbar-toggler border-none px-2' type='button' data-bs-toggle='offcanvas'
+                data-bs-target='#offcanvasExample' aria-controls='offcanvasExample' style="border: none;">
+                <div class="iconmenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <a href="index.html" class="navbar-logo"> <img src="./img/logo.png" alt="logo"></a>
+            <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+                aria-labelledby='offcanvasExampleLabel'>
+                <div class='offcanvas-header d-flex d-lg-none'>
+                    <a href="index.html" class="navbar-logo-offcanvas"> <img src="./img/logo.png" alt="logo"></a>
+                    <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                        <div class="iconmenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </a>
+                </div>
+                <div class='offcanvas-body p-lg-0'>
+                    <ul class='navbar-nav'>
+
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='index.html'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='about.html'>About Us</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='shop.html'>Shop</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='blog.html'>Blog</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='contact.html'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search">
+                <input type="search" placeholder="Axtarış">
+                <select>
+                    <option>All category</option>
+                    <option>Lorem1</option>
+                    <option>Lorem2</option>
+                    <option>Lorem3</option>
+                    <option>Lorem4</option>
+                    <option>Lorem5</option>
+                    <option>Lorem6</option>
+                    <option>Lorem7</option>
+                    <option>Lorem8</option>
+                </select>
+            </div>
+
+            <div class="navbar-icons">
+                <a href="#"><i class="fas fa-search" onclick="myFunction()"></i></a>
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- Navbar section end -->
+
+    <!-- Shop-header section start -->
+    <div id="shop-header">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-12">
+                    <div class="shop-header-content">
+                        <img src="./img/contact-bg.jpg" alt="">
+                        <div class="shop-header-text">
+                            <h6>Products</h6>
+                            <p>Home > Products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact-header section end -->
+
+    <!-- Story section start -->
+    <!--  <div id="story">
+        <div class="container">
+            <div class="story">
+              <div class="story-content">
+                <ul>
+                  <li><a href="#"><img src="./img/story-1.jpg" alt="" /></a></li>
+                  <li><a href="#"><img src="./img/story-2.jpg" alt="" /></a></li>
+                  <li><a href="#"><img src="./img/story-3.jpg" alt="" /></a></li>
+                  <li><a href="#"><img src="./img/story-4.jpg" alt="" /></a></li>
+                  <li><a href="#"><img src="./img/story-5.jpg" alt="" /></a></li>
+                  <li><a href="#"><img src="./img/story-6.jpg" alt="" /></a></li>
+                  
+                  <li class="last"><a href="#"><img src="css/images/small7.jpg" alt="" /></a></li>
+                </ul>
+              </div>
+              <div class="more-nav"> <a href="#" class="prev">previous</a> <a href="#" class="next">next</a> </div>
+            </div>
+          </div>
+        
+    </div> -->
+    <!-- Story section end -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/story-1.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-3.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-4.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-5.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-6.jpg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./img/story-1.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-3.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-4.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-5.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img src="./img/story-6.jpg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <</span> <span class="visually-hidden">Previous
+                </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Shop section start -->
+    <div id="shop">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-2">
+                    <div class="shop-filter">
+                        <button><i class="fas fa-filter"></i>Filter</button>
+                    </div>
+                </div>
+                <div class="col-8 flex justify-content-center">
+                    <div class="shop-top"></div>
+                </div>
+            </div>
+            <div class="row-shop">
+                <div class="col-3 filterCol-3">
+                    <div class="filter">
+                        <div class="filter-item">
+                            <div class="filter-title">CİNS</div>
+                            <div class="filter-elements">
+                                <ul>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>Kişi üçün</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>Qadın üçün</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>Unisex</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="filter-item">
+                            <div class="filter-title">HƏCM</div>
+                            <div class="filter-elements">
+                                <ul>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>5 ml</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>20 ml</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>30 ml</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>50 ml</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>100 ml</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="filter-item">
+                            <div class="filter-title">QİYMƏT</div>
+                            <div class="filter-elements">
+                                <ul>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>0 AZN - 50 AZN</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>50 AZN - 100 AZN</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>100 AZN - 200 AZN</li>
+                                    <li> <label class="checkbox path">
+                                            <input type="checkbox">
+                                            <svg viewBox="0 0 21 21">
+                                                <path
+                                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                </path>
+                                            </svg>
+                                        </label>200 AZN <</li> </ul> </div> </div> <div class="filter-item">
+                                            <div class="filter-title">BREND</div>
+                                            <input type="text" placeholder="Axtarış" class="brend-search">
+                                            <div class="filter-elements">
+                                                <ul>
+                                                    <li>Lorem</li>
+                                                    <li>Lorem</li>
+                                                    <li>Lorem</li>
+                                                    <li>Lorem</li>
+                                                </ul>
+                                            </div>
+                            </div>
+                            <div class="filter-item">
+                                <div class="filter-title">TAGLAR</div>
+                                <div class="filter-elements tags-item">
+                                    <ul>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                        <span>lorem</span>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 filterCol-9">
+                        <div class="sales-content">
+                            <div class="sales-item">
+                                <img src="./img/sales-1.jpg" alt="">
+                                <h6>Paco Rabanne</h6>
+                                <p>$50.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                                    <a href="single.html"><i class="far fa-heart"></i></a>
+                                    <a href="single.html"><i class="fas fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-2.jpg" alt="">
+                                <h6>Luna</h6>
+                                <p>$30.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-3.jpg" alt="">
+                                <h6>Marc Jacobs</h6>
+                                <p>$49.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-4.jpg" alt="">
+                                <h6>Gabbana Light</h6>
+                                <p>$35.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-5.jpg" alt="">
+                                <h6>Swiss Arabian</h6>
+                                <p>$20.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-6.jpg" alt="">
+                                <h6>Fantasy</h6>
+                                <p>$45.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-7.jpg" alt="">
+                                <h6>Mademosllas</h6>
+                                <p>$32.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="sales-item">
+                                <img src="./img/sales-8.jpg" alt="">
+                                <h6>Est Belle</h6>
+                                <p>$38.00</p>
+                                <div class="sales-circles">
+                                    <a href="single.html"><i class="fas fa-ellipsis-h"></i></a> <i
+                                        class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Shop section end -->
+
+
+
+        <script src="./js/app.js"></script>
+        <script src="./js/navbar.js"></script>
+        <script src="./js/testslide.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("navbar-logo");
+                if (x.style.display == "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+
+                }
+            }
+        </script>
+
+</body>
+
+</html>
