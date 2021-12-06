@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- HEADER - ESAS section start -->
+    <nav class='navbar navbar-expand-lg navbar-light '>
+        <div class='container-fluid'>
+            <button class='btn navbar-toggler border-none px-2' type='button' data-bs-toggle='offcanvas'
+                data-bs-target='#offcanvasExample' aria-controls='offcanvasExample' style="border: none;">
+                <div class="iconmenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <a href="index.html" class="navbar-logo"> <img src="./img/logo.png" alt="logo"></a>
+            <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+                aria-labelledby='offcanvasExampleLabel'>
+                <div class='offcanvas-header d-flex d-lg-none'>
+                    <a href="index.html" class="navbar-logo-offcanvas"> <img src="./img/logo.png" alt="logo"></a>
+                    <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                        <div class="iconmenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </a>
+                </div>
+                <div class='offcanvas-body p-lg-0'>
+                    <ul class='navbar-nav'>
+
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='index.html'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='about.html'>About Us</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='shop.html'>Shop</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='blog.html'>Blog</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='contact.html'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search">
+                <input type="search" placeholder="Axtarış">
+                <select>
+                    <option>All category</option>
+                    <option>Lorem1</option>
+                    <option>Lorem2</option>
+                    <option>Lorem3</option>
+                    <option>Lorem4</option>
+                    <option>Lorem5</option>
+                    <option>Lorem6</option>
+                    <option>Lorem7</option>
+                    <option>Lorem8</option>
+                </select>
+            </div>
+
+            <div class="navbar-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="login.html"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- Celal Header End -->
+
+    <!-- Header section start -->
+    <div id="header">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/header-bg.jpg" alt="">
+                    <div class="header-content">
+                        <span>Style Destination</span>
+                        <h3>Panst Elle Perfumes</h3>
+                        <h4>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered</h4>
+                        <a href="shop.html" class="header-btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/header-bg2.jpg" alt="">
+                    <div class="header-content">
+                        <span>Style Destination</span>
+                        <h3>Panst Elle Perfumes</h3>
+                        <h4>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered</h4>
+                        <a href="shop.html" class="header-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- Header section end -->
+
+    <!-- Category section start -->
+
+    <div id="category">
+        <div class="container-full">
+            <div class="category">
+                <div class="category-item">
+                    <a href="shop.html">
+                        <img src="./img/category-1.jpg" alt="">
+                        <div class="category-text">
+                            <h4>WOMEN PERFUME</h4>
+                            <span>SHOP NOW >></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="shop.html">
+                        <img src="./img/category-2.jpg" alt="">
+                        <div class="category-text">
+                            <h4>MEN'S PERFUME</h4>
+                            <span>SHOP NOW >></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category section end -->
+
+    <!-- Sales section start -->
+    <div id="sales">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sales-title  text-center m-4">
+                        <h2>Best Seller</h2>
+                        <span>Best Seller Product This Week!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <ul class="cd-items cd-container" style="list-style: none;">
+
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li> <!-- cd-item -->
+
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+
+
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li> <!-- cd-item -->
+
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+                    <li class="cd-item">
+                        <img src="./img/sales-1.jpg" alt="Item Preview">
+                        <a href="single.html"><i class="fas fa-ellipsis-h"></i></a>
+                        <a href="single.html"><i class="far fa-heart"></i></a>
+                        <a href="#0" class="cd-trigger"><i class="fas fa-search"></i></a>
+                        <h6>Paco Rabanne</h6>
+                        <p>$50.00</p>
+                    </li>
+
+                </ul> <!-- cd-items -->
+
+
+                <div class="cd-quick-view ">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cd-slider-wrapper">
+                                <ul class="cd-slider">
+                                    <li class="selected"><img src="./img/sales-1.jpg" alt="Product 1"></li>
+                                    <li><img src="./img/sales-3.jpg" alt="Product 2"></li>
+                                    <li><img src="./img/sales-3.jpg" alt="Product 3"></li>
+                                </ul> <!-- cd-slider -->
+
+                                <ul class="cd-slider-navigation">
+                                    <li><a class="cd-next" href="#0">Prev</a></li>
+                                    <li><a class="cd-prev" href="#0">Next</a></li>
+                                </ul> <!-- cd-slider-navigation -->
+                            </div> <!-- cd-slider-wrapper -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cd-item-info">
+                                <div class="product-content">
+                                    <h2 class="product-title">Est Belle</h2>
+                                    <div class="product-price">
+                                        <p class="price">$45.00 USD</p>
+                                    </div>
+                                    <hr>
+                                    <div class="product-detail">
+                                        <p class="product-detail-content" style="font-size: 15px;">Lorem, ipsum dolor
+                                            sit amet consectetur adipisicing elit. Enim nesciunt ex est aspernatur,
+                                            reprehenderit impedit adipisci mollitia quidem corporis non omnis architecto
+                                            ullam
+                                            temporibus atque harum ipsam perferendis. Est sapiente provident sequi dicta
+                                            praesentium
+                                            maiores distinctio</p>
+                                        <div class="purchase-info">
+                                            <input type="number" min="0" value="1">
+                                            <div class="form-btn">
+                                                <button>BUY IT NOW <i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div> <!-- cd-item-info -->
+                            <a href="#0" class="cd-close"></a>
+                            <div class="iconclose-quikview"><i class="far fa-window-close"></i></div>
+                        </div>
+                    </div>
+
+
+
+                </div> <!-- cd-quick-view -->
+            </div>
+        </div>
+    </div>
+    <!-- Sales section end -->
+
+    <!-- Banner section start -->
+    <div id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner-content">
+                        <h2>Fragrance Is Extracted From Nature</h2>
+                        <p>The wise man therefore always holds in these
+                            to this principle of selection</p>
+                        <a href="shop.html" class="header-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner section end -->
+    <script src="./js/navbar-search.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/quikview/jquery-2.1.1.js"></script>
+    <script src="./js/quikview/main.js"></script>
+    <script src="./js/quikview/modernizr.js"></script>
+    <script src="./js/quikview/velocity.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
