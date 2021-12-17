@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!-- HEADER - ESAS section start -->
+    <nav class='navbar navbar-expand-lg navbar-light '>
+        <div class='container-fluid'>
+            <button class='btn navbar-toggler border-none px-2' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample' style="border: none;">
+            <div class="iconmenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+            <a href="index.html" class="navbar-logo"> <img src="./img/logo.png" alt="logo"></a>
+            <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample' aria-labelledby='offcanvasExampleLabel'>
+                <div class='offcanvas-header d-flex d-lg-none'>
+                    <a href="index.html" class="navbar-logo-offcanvas"> <img src="./img/logo.png" alt="logo"></a>
+                    <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                        <div class="iconmenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </a>
+                </div>
+                <div class='offcanvas-body p-lg-0'>
+                    <ul class='navbar-nav'>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='index.html'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='about.html'>About Us</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='shop.html'>Shop</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='blog.html'>Blog</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='contact.html'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search">
+                <input type="search" placeholder="Axtarış">
+                <select>
+                <option>All category</option>
+                <option>Lorem1</option>
+                <option>Lorem2</option>
+                <option>Lorem3</option>
+                <option>Lorem4</option>
+                <option>Lorem5</option>
+                <option>Lorem6</option>
+                <option>Lorem7</option>
+                <option>Lorem8</option>
+            </select>
+            </div>
+
+            <div class="navbar-icons">
+                <a href="#"><i class="fas fa-search" id="resSearch"></i></a>
+                <a href="login.html"><i class="far fa-user"></i></a>
+                <a href="#sidebar2" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    <i class="far fa-heart"></i></a>
+                </a>
+                <a href="#sidebar" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    <i class="fas fa-shopping-bag"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- Celal Header End -->
+
+    <!-- Shop offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-lg-4  d-flex justify-content-center">
+                    <img src="./img/sales-1.jpg" alt="" class="image-favorite rounded float-left img-fluid">
+                </div>
+                <div class="col-6">
+                    <div class="offcanvas-product-title">Eau De Parfum - 100ml / Black</div>
+                    <div class="offcanvas-product-price">$30.00</div>
+                </div>
+                <div class="col-1">
+                    <i class="far fa-trash-alt"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- favorite offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar2" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="./img/sales-1.jpg" alt="" class="image-favorite rounded float-left img-fluid">
+                </div>
+                <div class="col-6">
+                    <div class="offcanvas-product-title">Eau De Parfum - 100ml / Black</div>
+                    <div class="offcanvas-product-price">$30.00</div>
+                </div>
+                <div class="col-1">
+                    <i class="far fa-trash-alt d-block"></i>
+                    <i class="fas fa-shopping-basket mt-3"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- Single section start -->
+    <div id="product">
+        <div class="card-product">
+            <div class="product-imgs">
+                <div class="product-select">
+                    <div class="product-item">
+                        <a href="#" data-id="1">
+                            <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455">
+                        </a>
+                    </div>
+                    <div class="product-item">
+                        <a href="#" data-id="2">
+                            <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455">
+                        </a>
+                    </div>
+                    <div class="product-item">
+                        <a href="#" data-id="3">
+                            <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455"></a>
+                    </div>
+
+                </div>
+                <div class="product-display">
+                    <div class="product-showcase">
+                        <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455">
+                        <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455">
+                        <img src="https://cdn.shopify.com/s/files/1/0586/9935/0180/products/1.1.jpg?v=1627890455">
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-content">
+                <h2 class="product-title">Est Belle</h2>
+                <div class="product-price">
+                    <p class="price">$45.00 USD</p>
+                </div>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+
+
+                <div class="product-detail">
+                    <p class="product-detail-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt ex est aspernatur, reprehenderit impedit adipisci mollitia quidem corporis non omnis architecto ullam temporibus atque harum ipsam perferendis. Est sapiente provident
+                        sequi dicta praesentium maiores distinctio</p>
+                    <div class="product-size">
+                        <div class="product-size-title">Size</div>
+                        <p class="product-size-item">50ml</p>
+                        <p class="product-size-item">100ml</p>
+                    </div>
+                    <div class="purchase-info">
+                        <input type="number" min="0" value="1">
+                        <div class="form-btn">
+                            <button>BUY IT NOW <i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Single section end -->
+
+
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/single.js"></script>
+</body>
+
+</html>
