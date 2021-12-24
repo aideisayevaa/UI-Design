@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/common.css">
+    <link rel="stylesheet" href="/public/css/layout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="./public/css/layout2.css">
+    <link rel="stylesheet" href="./public/css/common2.css">
+    <link rel="stylesheet" href="./public/css/style2.css">
+    <link rel="stylesheet" href="./public/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- HEADER - ESAS section start -->
+    <nav class='navbar navbar-expand-lg navbar-light '>
+        <div class='container-fluid'>
+            <button class='btn navbar-toggler border-none px-2' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample' style="border: none;">
+                <div class="iconmenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <a href="index.html" class="navbar-logo"> <img src="./public/image/logo2.png" alt="logo"></a>
+            <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample' aria-labelledby='offcanvasExampleLabel'>
+                <div class='offcanvas-header d-flex d-lg-none'>
+                    <a href="index.html" class="navbar-logo-offcanvas"> <img src="./public/image/logo2.png" alt="logo"></a>
+                    <a href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+                        <div class="iconmenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </a>
+                </div>
+                <div class='offcanvas-body p-lg-0'>
+                    <ul class='navbar-nav'>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='index.html'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='about.html'>About Us</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='shop.html'>Shop</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='blog.html'>Blog</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link active' aria-current='page' href='contact.html'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-search">
+                <input type="search" placeholder="Axtarış">
+                <ul class="allcategory">
+                    <li>
+                        <a href="#">All Category
+                       <i class="fas fa-caret-down"></i>
+                       </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./public/image/img/sales-1.jpg" alt="" class="dropdown-img">
+                                    <span>lorem</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./public/image/img/sales-1.jpg" alt="" class="dropdown-img">
+                                    <span>lorem</span></a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="./public/image/img/sales-1.jpg" alt="" class="dropdown-img">
+                                    <span>lorem</span>
+                                    <i class="fas fa-caret-right"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">lorem</a></li>
+                                    <li><a href="#">lorem</a></li>
+                                    <li><a href="#">lorem</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-icons">
+                <a href="#"><i class="fas fa-search" id="resSearch"></i></a>
+                <a href="login.html"><i class="far fa-user"></i></a>
+                <a href="#sidebar2" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    <i class="far fa-heart"></i></a>
+                </a>
+                <a href="#sidebar" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    <i class="fas fa-shopping-bag"></i>
+                </a>
+            </div>
+
+
+        </div>
+
+
+        </div>
+    </nav>
+    <!-- Celal Header End -->
+
+    <!-- Shop offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-lg-4  d-flex justify-content-center">
+                    <img src="./public/image/img/sales-1.jpg" alt="" class="image-favorite rounded float-left img-fluid">
+                </div>
+                <div class="col-6">
+                    <div class="offcanvas-product-title">Eau De Parfum - 100ml / Black</div>
+                    <div class="offcanvas-product-price">$30.00</div>
+                </div>
+                <div class="col-1">
+                    <i class="far fa-trash-alt"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- favorite offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar2" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="./public/image/img/sales-1.jpg" alt="" class="image-favorite rounded float-left img-fluid">
+                </div>
+                <div class="col-6">
+                    <div class="offcanvas-product-title">Eau De Parfum - 100ml / Black</div>
+                    <div class="offcanvas-product-price">$30.00</div>
+                </div>
+                <div class="col-1">
+                    <i class="far fa-trash-alt d-block"></i>
+                    <i class="fas fa-shopping-basket mt-3"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+
+    <div class="shipping-information">
+        <div class="noheading">
+            <a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a>
+            <strong>Your Shopping Cart</strong>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-9 col-md-7 
+                    col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+                    <div class="px-0 pt-4 pb-0 mt-3 mb-3">
+                        <form id="form">
+                            <ul id="progressbar">
+                                <li class="active" id="step1">
+                                    <strong>Step 1</strong>
+                                </li>
+                                <li id="step2"><strong>Step 2</strong></li>
+                                <li id="step3"><strong>Step 3</strong></li>
+                                <li id="step4"><strong>Step 4</strong></li>
+                            </ul>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div> <br>
+                            <fieldset>
+                                <h2>Welcome To GFG Step 1</h2>
+                                <input type="text">
+                                <input type="button" name="next-step" class="next-step" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <h2>Welcome To GFG Step 2</h2>
+                                <input type="button" name="next-step" class="next-step" value="Next Step" />
+                                <input type="button" name="previous-step" class="previous-step" value="Previous Step" />
+                            </fieldset>
+                            <fieldset>
+                                <h2>Welcome To GFG Step 3</h2>
+                                <div class="wrapper" id="app">
+                                    <div class="card-form">
+                                        <div class="card-list">
+                                            <div class="card-item" v-bind:class="{ '-active' : isCardFlipped }">
+                                                <div class="card-item__side -front">
+                                                    <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement"></div>
+                                                    <div class="card-item__cover">
+                                                        <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + currentCardBackground + '.jpeg'" class="card-item__bg">
+                                                    </div>
+
+                                                    <div class="card-item__wrapper">
+                                                        <div class="card-item__top">
+                                                            <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" class="card-item__chip">
+                                                            <div class="card-item__type">
+                                                                <transition name="slide-fade-up">
+                                                                    <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + getCardType + '.png'" v-if="getCardType" v-bind:key="getCardType" alt="" class="card-item__typeImg">
+                                                                </transition>
+                                                            </div>
+                                                        </div>
+                                                        <label for="cardNumber" class="card-item__number" ref="cardNumber">
+                                                <template v-if="getCardType === 'amex'">
+                                                  <span v-for="(n, $index) in amexCardMask" :key="$index">
+                                                    <transition name="slide-fade-up">
+                                                      <div class="card-item__numberItem" v-if="$index > 4 && $index < 14 && cardNumber.length > $index && n.trim() !== ''">*</div>
+                                                      <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" :key="$index" v-else-if="cardNumber.length > $index">
+                                                        {{cardNumber[$index]}}
+                                                      </div>
+                                                      <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" v-else :key="$index + 1">{{n}}</div>
+                                                    </transition>
+                                                  </span>
+                                                </template>
+                                  
+                                                <template v-else>
+                                                  <span v-for="(n, $index) in otherCardMask" :key="$index">
+                                                    <transition name="slide-fade-up">
+                                                      <div class="card-item__numberItem" v-if="$index > 4 && $index < 15 && cardNumber.length > $index && n.trim() !== ''">*</div>
+                                                      <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" :key="$index" v-else-if="cardNumber.length > $index">
+                                                        {{cardNumber[$index]}}
+                                                      </div>
+                                                      <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" v-else :key="$index + 1">{{n}}</div>
+                                                    </transition>
+                                                  </span>
+                                                </template>
+                                              </label>
+                                                        <div class="card-item__content">
+                                                            <label for="cardName" class="card-item__info" ref="cardName">
+                                                  <div class="card-item__holder">Card Holder</div>
+                                                  <transition name="slide-fade-up">
+                                                    <div class="card-item__name" v-if="cardName.length" key="1">
+                                                      <transition-group name="slide-fade-right">
+                                                        <span class="card-item__nameItem" v-for="(n, $index) in cardName.replace(/\s\s+/g, ' ')" v-if="$index === $index" v-bind:key="$index + 1">{{n}}</span>
+                                                      </transition-group>
+                                                    </div>
+                                                    <div class="card-item__name" v-else key="2">Full Name</div>
+                                                  </transition>
+                                                </label>
+                                                            <div class="card-item__date" ref="cardDate">
+                                                                <label for="cardMonth" class="card-item__dateTitle">Expires</label>
+                                                                <label for="cardMonth" class="card-item__dateItem">
+                                                    <transition name="slide-fade-up">
+                                                      <span v-if="cardMonth" v-bind:key="cardMonth">{{cardMonth}}</span>
+                                                      <span v-else key="2">MM</span>
+                                                    </transition>
+                                                  </label> /
+                                                                <label for="cardYear" class="card-item__dateItem">
+                                                    <transition name="slide-fade-up">
+                                                      <span v-if="cardYear" v-bind:key="cardYear">{{String(cardYear).slice(2,4)}}</span>
+                                                      <span v-else key="2">YY</span>
+                                                    </transition>
+                                                  </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-item__side -back">
+                                                    <div class="card-item__cover">
+                                                        <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + currentCardBackground + '.jpeg'" class="card-item__bg">
+                                                    </div>
+                                                    <div class="card-item__band"></div>
+                                                    <div class="card-item__cvv">
+                                                        <div class="card-item__cvvTitle">CVV</div>
+                                                        <div class="card-item__cvvBand">
+                                                            <span v-for="(n, $index) in cardCvv" :key="$index">
+                                                  *
+                                                </span>
+
+                                                        </div>
+                                                        <div class="card-item__type">
+                                                            <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + getCardType + '.png'" v-if="getCardType" class="card-item__typeImg">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-form__inner">
+                                            <div class="card-input">
+                                                <label for="cardNumber" class="card-input__label">Card Number</label>
+                                                <input type="text" id="cardNumber" class="card-input__input" v-mask="generateCardNumberMask" v-model="cardNumber" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardNumber" autocomplete="off">
+                                            </div>
+                                            <div class="card-input">
+                                                <label for="cardName" class="card-input__label">Card Holders</label>
+                                                <input type="text" id="cardName" class="card-input__input" v-model="cardName" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off">
+                                            </div>
+                                            <div class="card-form__row">
+                                                <div class="card-form__col">
+                                                    <div class="card-form__group">
+                                                        <label for="cardMonth" class="card-input__label">Expiration Date</label>
+                                                        <select class="card-input__input -select" id="cardMonth" v-model="cardMonth" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate">
+                                                <option value="" disabled selected>Month</option>
+                                                <option v-bind:value="n < 10 ? '0' + n : n" v-for="n in 12" v-bind:disabled="n < minCardMonth" v-bind:key="n">
+                                                  {{n < 10 ? '0' + n : n}}
+                                                </option>
+                                              </select>
+                                                        <select class="card-input__input -select" id="cardYear" v-model="cardYear" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate">
+                                                <option value="" disabled selected>Year</option>
+                                                <option v-bind:value="$index + minCardYear" v-for="(n, $index) in 12" v-bind:key="n">
+                                                  {{$index + minCardYear}}
+                                                </option>
+                                              </select>
+                                                    </div>
+                                                </div>
+                                                <div class="card-form__col -cvv">
+                                                    <div class="card-input">
+                                                        <label for="cardCvv" class="card-input__label">CVV</label>
+                                                        <input type="text" class="card-input__input" id="cardCvv" v-mask="'####'" maxlength="4" v-model="cardCvv" v-on:focus="flipCard(true)" v-on:blur="flipCard(false)" autocomplete="off">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <button class="card-form__button">
+                                          Submit
+                                        </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <input type="button" name="next-step" class="next-step" value="Final Step" />
+                                <input type="button" name="previous-step" class="previous-step" value="Previous Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="finish">
+                                    <h2 class="text text-center">
+                                        <strong>FINISHED</strong>
+                                    </h2>
+                                </div>
+                                <input type="button" name="previous-step" class="previous-step" value="Previous Step" />
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            var currentGfgStep, nextGfgStep, previousGfgStep;
+            var opacity;
+            var current = 1;
+            var steps = $("fieldset").length;
+
+            setProgressBar(current);
+
+            $(".next-step").click(function() {
+
+                currentGfgStep = $(this).parent();
+                nextGfgStep = $(this).parent().next();
+
+                $("#progressbar li").eq($("fieldset")
+                    .index(nextGfgStep)).addClass("active");
+
+                nextGfgStep.show();
+                currentGfgStep.animate({
+                    opacity: 0
+                }, {
+                    step: function(now) {
+                        opacity = 1 - now;
+
+                        currentGfgStep.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        nextGfgStep.css({
+                            'opacity': opacity
+                        });
+                    },
+                    duration: 500
+                });
+                setProgressBar(++current);
+            });
+
+            $(".previous-step").click(function() {
+
+                currentGfgStep = $(this).parent();
+                previousGfgStep = $(this).parent().prev();
+
+                $("#progressbar li").eq($("fieldset")
+                    .index(currentGfgStep)).removeClass("active");
+
+                previousGfgStep.show();
+
+                currentGfgStep.animate({
+                    opacity: 0
+                }, {
+                    step: function(now) {
+                        opacity = 1 - now;
+
+                        currentGfgStep.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        previousGfgStep.css({
+                            'opacity': opacity
+                        });
+                    },
+                    duration: 500
+                });
+                setProgressBar(--current);
+            });
+
+            function setProgressBar(currentStep) {
+                var percent = parseFloat(100 / steps) * current;
+                percent = percent.toFixed();
+                $(".progress-bar")
+                    .css("width", percent + "%")
+            }
+
+            $(".submit").click(function() {
+                return false;
+            })
+        });
+    </script>
+    <script src="https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script>
+        new Vue({
+            el: "#app",
+            data() {
+                return {
+                    currentCardBackground: Math.floor(Math.random() * 25 + 1), // just for fun :D
+                    cardName: "",
+                    cardNumber: "",
+                    cardMonth: "",
+                    cardYear: "",
+                    cardCvv: "",
+                    minCardYear: new Date().getFullYear(),
+                    amexCardMask: "#### ###### #####",
+                    otherCardMask: "#### #### #### ####",
+                    cardNumberTemp: "",
+                    isCardFlipped: false,
+                    focusElementStyle: null,
+                    isInputFocused: false
+                };
+            },
+            mounted() {
+                this.cardNumberTemp = this.otherCardMask;
+                document.getElementById("cardNumber").focus();
+            },
+            computed: {
+                getCardType() {
+                    let number = this.cardNumber;
+                    let re = new RegExp("^4");
+                    if (number.match(re) != null) return "visa";
+
+                    re = new RegExp("^(34|37)");
+                    if (number.match(re) != null) return "amex";
+
+                    re = new RegExp("^5[1-5]");
+                    if (number.match(re) != null) return "mastercard";
+
+                    re = new RegExp("^6011");
+                    if (number.match(re) != null) return "discover";
+
+                    re = new RegExp("^9792");
+                    if (number.match(re) != null) return "troy";
+
+                    return "visa"; // default type
+                },
+                generateCardNumberMask() {
+                    return this.getCardType === "amex" ?
+                        this.amexCardMask :
+                        this.otherCardMask;
+                },
+                minCardMonth() {
+                    if (this.cardYear === this.minCardYear) return new Date().getMonth() + 1;
+                    return 1;
+                }
+            },
+            watch: {
+                cardYear() {
+                    if (this.cardMonth < this.minCardMonth) {
+                        this.cardMonth = "";
+                    }
+                }
+            },
+            methods: {
+                flipCard(status) {
+                    this.isCardFlipped = status;
+                },
+                focusInput(e) {
+                    this.isInputFocused = true;
+                    let targetRef = e.target.dataset.ref;
+                    let target = this.$refs[targetRef];
+                    this.focusElementStyle = {
+                        width: `${target.offsetWidth}px`,
+                        height: `${target.offsetHeight}px`,
+                        transform: `translateX(${target.offsetLeft}px) translateY(${target.offsetTop}px)`
+                    };
+                },
+                blurInput() {
+                    let vm = this;
+                    setTimeout(() => {
+                        if (!vm.isInputFocused) {
+                            vm.focusElementStyle = null;
+                        }
+                    }, 300);
+                    vm.isInputFocused = false;
+                }
+            }
+        });
+    </script>
+
+
+    <script src="./public/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./public/js/password.js"></script>
+    <script src="./public/js/navbar.js"></script>
+    <script src="./public/js/navbar-search.js"></script>
+    <script src="./public/js/responsivesearch.js"></script>
+    <script src="./public/js/timer.js"></script>
+
+</body>
+
+</html>
