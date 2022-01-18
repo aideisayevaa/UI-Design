@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://chokolade-store-demo.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://chokolade-store-demo.myshopify.com/collections/top-rates.atom"/>
+  <title>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</title>
+  <updated>2020-02-09T23:12:25-05:00</updated>
+  <author>
+    <name>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</name>
+  </author>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557482492037</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/white-frosted-haystacks"/>
+    <title>White Frosted Haystacks</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/14.1_334a4314-50cc-4230-b9f9-7cf7d15841b0.jpg?v=1581321970"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            12.99 - 17.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/white-frosted-haystacks">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">These White Frosted Haystacks may be Sugar Free*, but they are still a "sweet" treat. Delight in a mound of naturally sweet shredded Coconut covered in our creamy White Frosting.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$10-$15</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>White</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557482492037</id>
+      <title>8 piece / White</title>
+      <s:price currency="USD">12.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557482492037</id>
+      <title>12 piece / White</title>
+      <s:price currency="USD">17.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557476167813</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/chocolate-peanut-butter-meltaways"/>
+    <title>Chocolate Peanut Butter Meltaways</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/13.1_da817817-aee1-4257-a736-63f2444cd0b8.jpg?v=1581321843"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            15.99 - 17.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/chocolate-peanut-butter-meltaways">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">Peanut Butter, Milk Chocolate &amp; Sugar Free*. What more could you want? We cover a light Peanut Butter meltaway center with a rich layer of Albanese Milk Chocolate. Go ahead - indulge! *Consumption may cause stomach discomfort and/ or laxative effect. Individual tolerance will vary.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$15-$20</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>Sienna</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557476167813</id>
+      <title>8 piece / Sienna</title>
+      <s:price currency="USD">15.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557476167813</id>
+      <title>12 piece / Sienna</title>
+      <s:price currency="USD">17.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557465813125</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/milk-chocolate-cashew-caramel"/>
+    <title>Milk Chocolate Cashew Caramel</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/12.1.jpg?v=1581911754"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            12.99 - 15.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/milk-chocolate-cashew-caramel">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="container container-v2 py-4">
+<div class="row">
+<div class="col-md-6"><a> <img src="https://cdn.shopify.com/s/files/1/0322/2047/9621/files/product1.jpg?v=1581876389" alt=""> </a></div>
+<div class="col-md-6 info1">
+<div>
+<h3>three main types <br> of chocolate</h3>
+<p>here are three main types of chocolate — white chocolate, milk chocolate, and dark chocolate. Everyone has their favorite, go-to flavor. But, how much do you actually know about the different kinds of chocolate? Do you know what differentiates semisweet from bittersweet? Or why white chocolate is softer than milk chocolate? It all comes down to how the chocolate is made and what ingredients are used to make it. Read on to learn about the varying flavors, compositions, and characteristics of each kind of chocolate.</p>
+</div>
+</div>
+</div>
+<div class="container container-v2 py-4">
+<div class="row">
+<div class="col-md-6 info2">
+<div>
+<h3>Milk Chocolate <br> Cashew Caramel</h3>
+<p>Milk chocolate is a classic that we all know and love from childhood. With its light brown color, creamy texture, and sweet flavor, milk chocolate is widely regarded as the most popular type of chocolate. It is made by combining chocolate liquor (cocoa solids and cocoa butter) with sugar, and milk. Sometimes an emulsifier, such as soy lecithin, is added to enhance its smoothness. According to the FDA definition, milk chocolate must contain at least 10% chocolate liquor and 12% milk.</p>
+</div>
+</div>
+<div class="col-md-6"><a><img src="https://cdn.shopify.com/s/files/1/0322/2047/9621/files/product2.jpg?v=1581876389" alt=""> </a></div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$10-$15</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>Chocolate</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557465813125</id>
+      <title>8 piece / Chocolate</title>
+      <s:price currency="USD">12.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557465813125</id>
+      <title>12 piece / Chocolate</title>
+      <s:price currency="USD">15.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557457457285</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/milk-chocolate-raisins"/>
+    <title>Milk Chocolate Raisins</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/11.1.jpg?v=1581321528"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            12.99 - 15.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/milk-chocolate-raisins">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">Milk Chocolate Raisins-so send chocolate! This delicious assortment of our limited-edition Valentine’s Day products and newest products is sure to let your special someone know you care. With perfect pairings like PB&amp;J and Coffee &amp; Cream, handcrafted caramels in unique flavors, and our one-of-a-kind Valentine’s Day chocolate bars, this gift box will brighten the day of valentines, galentines and everyone in between!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$10-$15</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>SaddleBrown</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557457457285</id>
+      <title>8 piece / SaddleBrown</title>
+      <s:price currency="USD">12.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557457457285</id>
+      <title>12 piece / SaddleBrown</title>
+      <s:price currency="USD">15.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557449592965</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/white-frosted-almond-bark"/>
+    <title>White Frosted Almond Bark</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/10_1.jpg?v=1581321358"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            11.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">This White Frosted Almond Bark is so good you won't believe it Sugar Free*! Our creamy White Frosted Bark is dotted throughout with crunchy Almond pieces. It's a combo almost too good to be true.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$10-$15</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>White</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557449592965</id>
+      <title>8 piece / White</title>
+      <s:price currency="USD">11.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557412270213</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/peanut-butter"/>
+    <title>Peanut Butter</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/6.1_0ed8556a-3b56-47e6-b998-011cbda58552.jpg?v=1581320539"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            4.99 - 6.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/peanut-butter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">Our smooth &amp; crunchy peanut butter center is covered in creamy organic milk chocolate. At Chokolade, we make our own small-batch peanut butter fillings from fresh organic peanuts, cane sugar and sea salt, for a true delight. Price discounted by 10% for all 18ct caddy orders! Did you also know that peanuts are naturally gluten-free? And we didn’t monkey with the basics when we covered our peanut butter in our smoothest organic milk chocolate, which is why we’re certified gluten-free by the Gluten Free Food Program USA.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>Chocolate</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557412270213</id>
+      <title>8 piece / Chocolate</title>
+      <s:price currency="USD">4.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557412270213</id>
+      <title>12 piece / Chocolate</title>
+      <s:price currency="USD">6.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557399949445</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/dark-caramel"/>
+    <title>Dark Caramel</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/4.1.jpg?v=1581320230"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            4.99 - 6.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/dark-caramel">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">Our Chokolade Dark Chocolate Caramel Mini combines classic dark chocolate with creamy caramel for a rich and subtly salted finish. We craft our own small-batch caramel syrup, then add milk, cane sugar and fresh organic butter for this tasteful delight. Not only did we come up with what we think is the perfect chocolate and caramel combination, but we took our time and did it right. That’s why these chocolate mini candies are non-GMO, gluten-free and, as always, organic.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$5-$10</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>Sienna</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557399949445</id>
+      <title>8 piece / Sienna</title>
+      <s:price currency="USD">4.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557399949445</id>
+      <title>12 piece / Sienna</title>
+      <s:price currency="USD">6.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://chokolade-store-demo.myshopify.com/products/4557392314501</id>
+    <published>2020-02-09T23:12:25-05:00</published>
+    <updated>2020-02-09T23:12:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://chokolade-store-demo.myshopify.com/products/chocolate-coconut"/>
+    <title>Chocolate Coconut</title>
+    <s:type></s:type>
+    <s:vendor>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0322/2047/9621/products/3.1_a5b06484-929d-42a4-b1a3-09e5524cd30e.jpg?v=1581320061"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Chokolade | Chocolate Sweets &amp; Candy And Cake Shopify Theme<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            7.99 - 10.99
+            <a href="https://chokolade-store-demo.myshopify.com/products/chocolate-coconut">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ml-3 mr-3" style="text-align: left;">Our sweet, creamy organic coconut center is covered in rich organic dark chocolate. At Chokolade, we make our own small-batch coconut filling with fresh organic coconut flakes, cane sugar, and vanilla extract for a true (vegan!) delight. Price discounted by 10% for all 18ct caddy orders! It’s no wonder this has become our absolute best seller. But wait! There’s more! It’s not only organic, it’s not only vegan, it’s also made with absolutely no genetically modified organisms (making it non-GMO) and completely gluten-free. What are you waiting for?</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>$5-$10</s:tag>
+    <s:tag>12 piece</s:tag>
+    <s:tag>8 piece</s:tag>
+    <s:tag>Black</s:tag>
+    <s:tag>Sienna</s:tag>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557392314501</id>
+      <title>8 piece / Black</title>
+      <s:price currency="USD">7.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557392314501</id>
+      <title>8 piece / Sienna</title>
+      <s:price currency="USD">7.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557392314501</id>
+      <title>12 piece / Black</title>
+      <s:price currency="USD">10.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://chokolade-store-demo.myshopify.com/products/4557392314501</id>
+      <title>12 piece / Sienna</title>
+      <s:price currency="USD">10.99</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
