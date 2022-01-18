@@ -1,0 +1,1152 @@
+/* Item lock */
+
+.btQuoteItem.btCCLock,
+.btQuoteGBlock.btCCLock {
+	position: relative;
+}
+.btQuoteItem.btCCLock:before,
+.btQuoteGBlock.btCCLock:before {
+    content: ' ';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 999;
+}
+
+/* Columns and forms widths */
+.btQuoteBooking {
+    margin: 0 0 20px;
+	box-sizing: border-box;
+	-webkit-transition: opacity 400ms ease;
+	        transition: opacity 400ms ease;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+.btQuoteBooking *, .btQuoteBooking *:after, .btQuoteBooking *:before {
+	box-sizing: border-box;
+}
+.btQuoteBooking:after {
+	content: " ";
+	display: table;
+	clear: both;
+	width: 100%;
+}
+.btQuoteBooking .btQuoteBookingForm {
+	margin: 0 0 30px;
+}
+.btQuoteBooking .btTotalQuoteContactGroup {
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+	max-height: 0;
+	overflow: hidden;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+.btQuoteBooking .btTotalQuoteContactGroup.btActive {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	max-height: 1000px;
+	filter: alpha(opacity=100);
+	-webkit-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+/* Next button */
+.btQuoteBooking .btTotalNextWrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+
+	padding-right: 0 !important;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	text-align: initial;
+}
+
+.btQuoteBooking .btQuoteBookingForm.btActive .boldBtn {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 160px;
+	        flex: 0 0 160px;
+	width: 160px;
+	max-width: 160px;
+}
+.btQuoteBooking .btQuoteBookingForm .boldBtn {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 0px;
+	        flex: 0 1 0px;
+	float: none;
+	margin-right: 0;
+	width: 0px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	max-width: 0;
+}
+.btQuoteBooking .btContactNext {
+    font-family: inherit;
+	margin: 0 0 0 30px;
+	line-height: 2.25;
+	border-radius: 50px;
+	border: #52b7bd 2px solid;
+	color: #52b7bd;
+	text-transform: uppercase;
+	font-weight: 900;
+	display: inline-block;
+	padding: 0 30px 0 30px;
+	background: transparent;
+	cursor: pointer;
+	font-size: 20px;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-webkit-transform: translate(250px,0);
+	        transform: translate(250px,0);
+	white-space: nowrap;
+}
+.btQuoteBooking .btContactNext:focus {
+	outline:0;
+}
+
+.btQuoteBooking .btQuoteBookingForm.btActive .btContactNext {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-webkit-transform: translate(0,0);
+	        transform: translate(0,0);
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+	width: 100%;
+}
+.btQuoteBooking .btContactNext:hover, .btQuoteBooking .btContactNext:active {
+	border-color: #999;
+	color: #555;
+	box-shadow: 0 0 10px #CCC inset, 0 2px 10px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btContactNext:hover:after, .btQuoteBooking .btContactNext:active:after {
+	margin: 0 7px 0 10px;
+    -webkit-transition: margin 200ms ease;
+    transition: margin 200ms ease;
+}
+.btQuoteBooking .btContactNext:active {
+	box-shadow: 0 0 0 #CCC inset, 0 -2px 10px rgba(0,0,0,0.4);
+}
+/* Quote items */
+.btQuoteBooking .btQuoteItem {
+    padding: 0 0 0 220px;
+    margin: 0 0 30px;
+}
+.btQuoteBooking .btQuoteItem label {
+    display: block;
+    float: left;
+    width: 220px;
+    margin: 8px 0 0 -220px;
+	padding-right: 20px;
+}
+.btQuoteBooking .btQuoteSlider {
+    float: left;
+    margin: 0 0 0;
+    width: 100%;
+}
+.btQuoteBooking .btQuoteSwitch {
+    float: left;
+    margin: 0 0 0;
+    width: 76px;
+	height: 38px;
+	border: 1px solid #ccc;
+	border-radius: 38px;
+	cursor: pointer;
+	padding: 5px;
+	-webkit-transition: box-shadow 380ms ease;
+	        transition: box-shadow 380ms ease;
+}
+.btQuoteBooking .btQuoteSwitch:hover {
+	box-shadow: 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btQuoteSwitch .btQuoteSwitchInner {
+    width: 26px;
+	height: 26px;
+	background: #ccc;
+	border-radius: 50%;
+	-webkit-transition: all 190ms cubic-bezier(0.8, 0.1, 0.8, 0.1);
+	        transition: all 190ms cubic-bezier(0.8, 0.1, 0.8, 0.1);
+}
+
+.btQuoteBooking .btQuoteSwitch.on .btQuoteSwitchInner {
+	margin-left: 38px;
+	background: #52b7bd;
+}
+
+.btQuoteBooking .btQuoteItemInput {
+    text-align: center;
+}
+.btQuoteBooking .btQuoteItem .fancy-select .trigger {
+    text-align: left;
+    color: #b4b4b4;
+}
+.btQuoteBooking .btQuoteItem .fancy-select .trigger.selected {
+    color: #333;
+}
+/* Standard fields */
+.btQuoteBooking input[type="text"], .btQuoteBooking  input[type="email"], .btQuoteBooking input[type="password"], .btQuoteBooking input[type="url"], .btQuoteBooking input[type="tel"], .btQuoteBooking input[type="number"], .btQuoteBooking input[type="date"], .btQuoteBooking textarea, .btQuoteBooking .fancy-select .trigger {
+    width: 100%;
+    display: block;
+    line-height: 2;
+	min-height: 38px;
+    padding: 0 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-weight: inherit;
+	font-size: inherit;
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+	color: #000;
+	border-radius: 2px;
+	outline: none;
+}
+.btQuoteBooking .btQuoteItem textarea {
+    resize: vertical;
+    font-size: inherit;
+    color: #000;
+    padding: 0px 12px 0px 12px;
+    min-height: 160px;
+}
+.btQuoteBooking .dd.ddcommon.borderRadius .ddTitleText {
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+	border-radius: 2px;
+	min-height: 38px;
+}
+.btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText {
+	border-radius: 0;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+/* Standard hover state */
+.btQuoteBooking  input[type="text"]:hover, .btQuoteBooking  input[type="email"]:hover, .btQuoteBooking  input[type="password"]:hover, .btQuoteBooking  input[type="url"]:hover, .btQuoteBooking  input[type="tel"]:hover, .btQuoteBooking  input[type="number"]:hover, .btQuoteBooking  input[type="date"]:hover, .btQuoteBooking  textarea:hover, .btQuoteBooking  .fancy-select .trigger:hover {
+	box-shadow: 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .dd.ddcommon.borderRadius:hover .ddTitleText {
+	box-shadow: 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+/* Standard focus state */
+.btQuoteBooking  input[type="text"]:focus, .btQuoteBooking  input[type="email"]:focus, .btQuoteBooking  input[type="url"]:focus, .btQuoteBooking  input[type="tel"]:focus, .btQuoteBooking  input[type="number"]:focus, .btQuoteBooking  input[type="date"]:focus, .btQuoteBooking  textarea:focus, .btQuoteBooking  .fancy-select .trigger.open {
+    border-color: #999;
+	box-shadow: 5px 0 0 #52b7bd inset, 0 2px 10px rgba(0,0,0,0.2);
+	outline: none;
+}
+.btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText, .btQuoteBooking .dd.ddcommon.borderRadiusBtm .ddTitleText {
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+	box-shadow: 5px 0 0 #52b7bd inset, 0 2px 10px rgba(0,0,0,0.2);
+	min-height: 38px;
+}
+/* Float clears */
+.btQuoteBooking .btQuoteItem:after {
+    content: ' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+/* Slider */
+.btQuoteBooking  .ui-slider {
+	background: #ededed; /* Old browsers */ /* FF3.6+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.05), rgba(0,0,0,0));
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.05), rgba(0,0,0,0));
+    position: relative;
+    text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 14px;
+	box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    -webkit-transition: all 190ms ease;
+    transition: all 190ms ease;
+}
+/* Slider hover state */
+.btQuoteBooking  .ui-slider:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+}
+/* Slider handle */
+.btQuoteBooking  .ui-slider .ui-slider-handle {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    min-width: 38px;
+    height: 38px;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #52b7bd;
+    border-radius: 50%;
+    cursor: w-resize;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	box-shadow: 0 0 0 rgba(0,0,0,0.5), 0 0 0 0 rgba(0,0,0,0.2) inset;
+    -webkit-transition: all 190ms ease;
+    transition: all 190ms ease;	
+}
+	
+.btQuoteBooking .btQuoteSliderValue {
+	min-width: 34px;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 2px;
+	font-size: 11px;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	display: block;
+}
+/* Slider hover state */
+.btQuoteBooking  .ui-slider .ui-slider-handle.ui-state-hover {
+	box-shadow: 0 0 0 rgba(0,0,0,0.5), 0 0 0 3px rgba(0,0,0,0.2) inset;
+}
+/* Slider active state */
+.btQuoteBooking  .ui-slider .ui-slider-handle.ui-state-active, .btQuoteBooking  .ui-slider .ui-slider-handle.ui-state-active.ui-state-hover {
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.5), 0 0 0 3px rgba(0,0,0,0.2) inset;
+}
+/* Slider range */
+.btQuoteBooking  .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+/* support: IE8 - See #6727 */
+.btQuoteBooking  .ui-slider.ui-state-disabled .ui-slider-handle,
+.btQuoteBooking  .ui-slider.ui-state-disabled .ui-slider-range {
+    -webkit-filter: inherit;
+    filter: inherit;
+}
+/* Slider horizontal */
+.btQuoteBooking  .ui-slider-horizontal {
+    height: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.btQuoteBooking  .ui-slider-horizontal .ui-slider-handle {
+    top: -10px;
+    margin-left: -18px;
+}
+.btQuoteBooking  .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.btQuoteBooking  .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.btQuoteBooking  .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+/* Slider vertical */
+.btQuoteBooking  .ui-slider-vertical {
+    min-width: 34px;
+    height: 100px;
+}
+.btQuoteBooking  .ui-slider-vertical .ui-slider-handle {
+    left: 0;
+    margin-left: 0;
+    margin-bottom: -18px;
+}
+.btQuoteBooking  .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+.btQuoteBooking  .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+.btQuoteBooking  .ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+/* Total value */
+.btQuoteBooking  .btQuoteBookingForm .btQuoteTotal {
+    font-weight: bold;
+    padding: 0;
+    text-align: right;
+	color: #FFF;
+	background: #52b7bd;
+	border-radius: 50px;
+	line-height: 1.8;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+	float: none;
+}
+.btQuoteBooking  .btQuoteBookingForm.btActive .btQuoteTotal {
+}
+.btQuoteBooking  .btQuoteTotalText {
+    margin-right: 1em;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+}
+/* Total currency */
+.btQuoteBooking .btQuoteTotalCurrency {
+    font-size: 22px;
+	line-height: 1.8;
+	display: inline-block;
+	background: rgba(0,0,0,0.25);
+	-webkit-border-top-left-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	padding: 5px 3px 5px 20px;
+}
+
+.btQuoteBooking .btQuoteTotalCalc {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    font-size: 22px;
+	line-height: 1.8;
+	display: inline-block;
+	background: rgba(0,0,0,0.25);
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 5px 20px 5px 3px;
+}
+
+.currencyAfter .btQuoteTotalCurrency {
+	border-radius: 0px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 5px 20px 5px 3px;
+}
+
+.currencyAfter .btQuoteTotalCalc {
+	border-radius: 0px;	
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	padding: 5px 3px 5px 20px;
+}
+
+/* Options */
+.btQuoteBooking .btQuoteItem ul.options {
+    text-align: left;
+}
+/* Contact form */
+.btQuoteBooking .btQuoteContact:not(.btQuoteContactForm7) {
+    margin: 0 -10px 0px -10px;
+}
+/* Contact form item */
+.btQuoteBooking .btQuoteContact .btQuoteItem {
+    padding: 0 10px;
+    float: left;
+    width: 50%;
+}
+/* Form split in two columns */
+.btQuoteBooking .btQuoteContact .btQuoteItem:nth-child(odd) {
+    clear: left;
+}
+/* Form full width item */
+.btQuoteBooking .btQuoteItem.btQuoteItemFullWidth {
+    float: none;
+    width: auto;
+}
+/* Form button */
+.btQuoteBooking .btQuoteContact .boldBtn {
+    clear: left;
+    margin: 0px;
+	text-align: center;
+	white-space: normal;
+}
+/* Mandatory fields */
+.btQuoteBooking  .btContactFieldMandatory input, .btQuoteBooking  .btContactFieldMandatory textarea {
+    border: 1px solid #AAA;
+	box-shadow: 0 0 0 1px #AAA inset;
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+}
+.btQuoteBooking .btContactFieldMandatory .dd.ddcommon.borderRadius .ddTitleText {
+    border: 1px solid #AAA;
+	box-shadow: 0 0 0 1px #AAA inset;
+}
+.btQuoteBooking  .btContactFieldMandatory input:hover, .btQuoteBooking  .btContactFieldMandatory textarea:hover {
+	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btContactFieldMandatory .dd.ddcommon.borderRadius:hover .ddTitleText {
+	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking  .btContactFieldMandatory input:focus, .btQuoteBooking  .btContactFieldMandatory textarea:focus {
+	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btContactFieldMandatory .dd.ddcommon.borderRadiusTp .ddTitleText {
+	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+/* Error fields validation */
+.btQuoteBooking  .btContactFieldMandatory.btContactFieldError input, .btQuoteBooking  .btContactFieldMandatory.btContactFieldError textarea {
+    border: 1px solid #52b7bd;
+	box-shadow: 0 0 0 1px #52b7bd inset;
+    -webkit-transition: all 380ms ease;
+    transition: all 380ms ease;
+}
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {
+    border: 1px solid #52b7bd;
+	box-shadow: 0 0 0 1px #52b7bd inset;
+}
+.btQuoteBooking  .btContactFieldMandatory.btContactFieldError input:hover, .btQuoteBooking  .btContactFieldMandatory.btContactFieldError textarea:hover {
+	box-shadow: 0 0 0 1px #52b7bd inset, 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText {
+	box-shadow: 0 0 0 1px #52b7bd inset, 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking  .btContactFieldMandatory.btContactFieldError input:focus, .btQuoteBooking  .btContactFieldMandatory.btContactFieldError textarea:focus {
+	box-shadow: 0 0 0 1px #52b7bd inset, 5px 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText {
+	box-shadow: 0 0 0 1px #52b7bd inset, 5px 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+
+/* Submit query message */
+.btQuoteBooking .btSubmitMessage {
+    color: #52b7bd;
+    font-weight: 600;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+}
+/* Date picker */
+.btDatePicker {
+	z-index: 10000 !important;
+	width: 300px;
+}
+.btDatePicker table th, .btDatePicker table td {
+    border: 1px solid #e0e0e0;
+}
+.btDatePicker .ui-datepicker-header {
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #52b7bd;
+	color: #FFF;
+}
+.btDatePicker table.ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    background-color: #f2f2f2;
+}
+/* Datepicker header, day names */
+.btDatePicker table.ui-datepicker-calendar th {
+    padding: 10px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+	text-align: center;
+}
+/* Datepicker prev/next */
+.btDatePicker a.ui-datepicker-prev, .btDatePicker a.ui-datepicker-next {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 2px;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btDatePicker a.ui-datepicker-prev {
+    float: left;
+}
+.btDatePicker a.ui-datepicker-next {
+    float: right;
+}
+/* Prev / Next hover state */
+.btDatePicker a.ui-datepicker-prev:hover, .btDatePicker a.ui-datepicker-next:hover {
+	color: inherit;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+/* Datepicker title */
+.btDatePicker .ui-datepicker-title {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #FFF;
+}
+/* Datepicker DIV */
+.btDatePicker#ui-datepicker-div {
+    background-color: #f2f2f2;
+	border: 1px solid #CCC;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	border-radius: 2px;
+	margin-top: 1px;
+}
+/* Datepicker day */
+.btDatePicker .ui-datepicker-calendar td {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0.3em;
+	text-align: center;
+}
+/* Datepicker day link */
+.btDatePicker table.ui-datepicker-calendar td a {
+    color: #666;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 18px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+/* Datepicker active state */
+.btDatePicker table.ui-datepicker-calendar td a.ui-state-active {
+	font-weight: bold;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+/* Datepicker hover state */
+.btDatePicker table td:hover {
+	cursor: pointer;
+}
+.btDatePicker table td:hover {
+    background: #e0e0e0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+/* Styled select */
+.btQuoteBooking .btDropDown .dd {
+    position: relative;
+}
+.btQuoteBooking .ddChild {
+    position: absolute;
+    left: 0 !important;
+    right: 0 !important;
+    margin: -1px 0 0;
+	-webkit-border-bottom-right-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomright: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.btQuoteBooking .ddChild {
+    position: absolute !important;
+}
+/* Select submenu items */
+.btQuoteBooking .ddChild {
+    background-color: #fff;
+    border: 1px solid #999;
+    overflow-y: auto;
+}
+.btQuoteBooking .ddChild ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.btQuoteBooking .ddChild ul li {
+    display: table;
+    width: 100%;
+	min-height: 38px;
+    margin: 0;
+    padding: 0 37px 0 0;
+    cursor: pointer;
+    line-height: 1.2;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+	color: #000;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.btQuoteBooking .ddChild ul li span {
+    display: block;
+    padding: 0px 12px;
+	line-height: 2;
+}
+.btQuoteBooking .ddChild ul li span.description {
+	line-height: 1.5;
+	margin-top: -.3em;
+	margin-bottom: .3em;
+}
+/* Item hover state */
+.btQuoteBooking .ddChild ul li:hover, .btQuoteBooking .ddChild ul li.selected:hover {
+	color: #666;
+    background: rgba(0,0,0,0.05);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+/* First item disabled state */
+.btQuoteBooking .ddChild ul li:first-child, .btQuoteBooking .ddChild ul li:first-child:hover {
+    border-top: none;
+	color: #666;
+	background: none;
+}
+.btQuoteBooking .ddOutOfVision {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+/* Styled menu itself */
+.btQuoteBooking .ddItem {
+    display: table;
+    width: 100%;
+    margin: 1px 0 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.1;
+}
+/* Styled menu label */
+.btQuoteBooking .ddTitleText {
+    display: table;
+    width: 100%;
+}
+.btQuoteBooking .ddTitleText span, .btQuoteBooking .ddChild ul li span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+.btQuoteBooking .ddTitleText span span, .btQuoteBooking .ddChild ul li span span, .btQuoteBooking .ddChild ul li:hover span span, .btQuoteBooking .ddChild ul li.selected:hover span span {
+    display: block;
+    font-size: 12px;
+	padding: 0px;
+	color: #555;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.btQuoteBooking .ddChild span {
+    padding: 8px 12px;
+}
+.btQuoteBooking .ddTitleText span {
+    padding: 0px 12px;
+}
+.btQuoteBooking .dd.ddcommon.borderRadius .ddTitleText {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0 37px 0 0;
+}
+.btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText, .btQuoteBooking .dd.ddcommon.borderRadiusBtm .ddTitleText {
+    background-color: #fff;
+	border: 1px solid #999;
+    padding: 0 37px 0 0;
+}
+/* Select item description */
+.btQuoteBooking .ddlabel, .btQuoteBooking .description {
+    width: 100%;
+}
+.btNotSelected {
+	min-height: 38px;
+}
+.btNotSelected  .ddlabel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Photo in select */
+.btQuoteBooking .ddTitleText .ddImage, .btQuoteBooking .ddChild ul li .ddImage {
+    text-align: center;
+    padding: 12px;
+	padding-right: 0px;
+}
+.btQuoteBooking .ddTitleText .ddImage img, .btQuoteBooking .ddChild ul li .ddImage img {
+    display: block;
+    width: auto;
+    max-width: none !important;
+}
+/* Nothing selected state */
+.btQuoteBooking .ddTitleText.btNotSelected .ddlabel {
+	color: #a9a9a9;
+}
+/* Selected state */
+.btQuoteBooking .ddTitleText .ddlabel {
+    width: 100%;
+    line-height: 2;
+	color: #000;
+}
+.btQuoteBooking .ddTitleText .ddlabel .description {
+    line-height: 1.5;
+	margin-top: -.3em;
+	margin-bottom: .3em;
+}
+.btQuoteBooking .ddTitle {
+    position: relative;
+    cursor: pointer;
+}
+/* Styled select arrow */
+.btQuoteBooking .ddTitle .arrow  {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+	margin-top: -2px;
+}
+/* Arrow itself */
+.btQuoteBooking .ddTitle .arrow:before {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #ccc;
+	display: block;
+}
+/* Submit button */
+.btQuoteBooking .btContactSubmit {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #52b7bd;
+    color: #fff;
+    line-height: 2.5;
+    padding: 10px 50px;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+.btQuoteBooking .btContactSubmit:focus {
+	outline:0;
+}
+/* Submit hover state */
+.btQuoteBooking  .btContactSubmit:hover {
+	box-shadow: 0 0 0 5px rgba(0,0,0,0.2) inset;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+/* Tablets screen */
+@media (max-width: 1024px) {
+    .btQuoteBooking .btQuoteContact .btQuoteItem {
+        float: none;
+        width: auto;
+    }
+	.btQuoteBooking .btTotalQuoteContactGroup.btActive {
+		max-height: 1000px;
+	}
+	/*.btQuoteBooking .btQuoteContact {
+		margin-left: -10px;
+	}*/
+}
+/* Larger smartphones screen */
+@media (max-width: 650px) {
+    .btQuoteBooking .btQuoteItem label {
+        display: block;
+        float: none;
+        margin: 0 0 8px;
+        width: auto;
+    }
+    .btQuoteBooking .btQuoteItem {
+        margin: 0 0 20px;
+        padding: 0;
+    }
+}
+/* Small smartphones screen */
+@media (max-width: 480px) {
+    .btQuoteBooking .ddTitleText .ddImage img, .btQuoteBooking .ddChild ul li .ddImage img {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+	.btQuoteBooking .btTotalNextWrapper {
+		display: block;
+	}
+	.btQuoteBooking .btQuoteBookingForm.btActive .boldBtn, .btQuoteBooking .btQuoteBookingForm .boldBtn {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 0 100%;
+		        flex: 1 0 100%;
+		width: 100%;
+	}
+	.btQuoteBooking .btQuoteBookingForm.btActive .btQuoteTotal, .btQuoteBooking .btQuoteBookingForm .btQuoteTotal {
+		display: block;
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+		height: 50px;
+	}
+	.btQuoteBooking .btQuoteBookingForm.btActive .btContactNext, .btQuoteBooking .btQuoteBookingForm .btContactNext {
+		-webkit-transform: none;
+		        transform: none;
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		margin-left: auto;
+		width: 100%;
+	}
+	.btQuoteBooking .btQuoteBookingForm .btContactNext {
+		-webkit-transform: translateY(-100%);
+		        transform: translateY(-100%);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	.btQuoteBooking .btContactBack, .btQuoteBooking .btContactSubmit {
+		margin: 0 auto 20px auto;
+		clear: both;
+		display: block;
+	}
+}
+
+/* placeholder */
+
+.btQuoteBooking *::-webkit-input-placeholder {
+	font-family: inherit;
+	color: #a9a9a9;
+}
+.btQuoteBooking *:-moz-placeholder { /* older Firefox*/
+	font-family: inherit;
+	color: #a9a9a9;
+}
+.btQuoteBooking *::-moz-placeholder { /* Firefox 19+ */ 
+	font-family: inherit;
+	color: #a9a9a9;
+} 
+.btQuoteBooking *:-ms-input-placeholder { 
+	font-family: inherit;
+	color: #a9a9a9;
+}
+
+/* reCAPTCHA */
+
+.btQuoteBooking .g-rec {
+	margin-bottom: 30px;
+	padding: 0 10px;
+}
+
+.btQuoteBooking .g-rec > div > div {
+	margin: auto;
+}
+
+/* PayPal */
+
+.btPayPalButton {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0;
+	background: transparent;
+	border: #ccc 2px solid;
+	border-radius: 50px;
+/*	margin-right: -100%;*/
+	width: 130px;
+	height: 49px;
+	cursor: pointer;
+	-webkit-transition: box-shadow 380ms ease;
+	        transition: box-shadow 380ms ease;
+	background-position: center center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 130px;
+	        flex: 0 0 130px;
+	margin-left: 30px;
+}
+
+.btPayPalButton:hover {
+	box-shadow: 0 0 0 #52b7bd inset, 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.btPayPalForm {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.bt_cc_email_confirmation_container {
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+
+/* Base for label styling */
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked),
+.bt_cc_email_confirmation_container [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked) + label,
+.bt_cc_email_confirmation_container [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked) + label:before,
+.bt_cc_email_confirmation_container [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 2px;
+  /*box-shadow: inset 0 1px 3px rgba(0,0,0,.3);*/
+}
+/* checked mark aspect */
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked) + label:after,
+.bt_cc_email_confirmation_container [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  line-height: 1;
+  /*color: #09ad7e;*/
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.bt_cc_email_confirmation_container [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/* disabled checkbox */
+.bt_cc_email_confirmation_container [type="checkbox"]:disabled:not(:checked) + label:before,
+.bt_cc_email_confirmation_container [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.bt_cc_email_confirmation_container [type="checkbox"]:disabled:checked + label:after {
+  /*color: #999;*/
+}
+.bt_cc_email_confirmation_container [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+.bt_cc_email_confirmation_container [type="checkbox"]:checked:focus + label:before,
+.bt_cc_email_confirmation_container [type="checkbox"]:not(:checked):focus + label:before {
+  /*border: 1px dotted blue;*/
+}
+
+/* hover style just for information */
+.bt_cc_email_confirmation_container label:hover:before {
+  /*border: 1px solid #4778d9!important;*/
+}
+
+/* CC Separator */
+
+.bt_cc_separator.bt_cc_bottom_spacing_extra_small{
+	margin-bottom: 0.25em !important;
+}
+.bt_cc_separator.bt_cc_bottom_spacing_small {
+	margin-bottom: 0.5em !important;
+}
+.bt_cc_separator.bt_cc_bottom_spacing_normal {
+	margin-bottom: 1em !important;
+}
+.bt_cc_separator.bt_cc_bottom_spacing_medium {
+	margin-bottom: 2em !important;
+}
+.bt_cc_separator.bt_cc_bottom_spacing_large {
+	margin-bottom: 4em !important;
+}
+.bt_cc_separator.bt_cc_bottom_spacing_extra_large {
+	margin-bottom: 8em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_extra_small{
+	margin-top: 0.25em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_small {
+	margin-top: 0.5em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_normal {
+	margin-top: 1em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_medium {
+	margin-top: 2em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_large {
+	margin-top: 4em !important;
+}
+.bt_cc_separator.bt_cc_top_spacing_extra_large {
+	margin-top: 8em !important;
+}
+.bt_cc_separator.bt_cc_border_style_solid {
+	border-top: 1px solid #ddd;
+}
+.bt_cc_separator.bt_cc_border_style_dashed {
+	border-top: 1px dashed #ddd;
+}
+.bt_cc_separator.bt_cc_border_style_dotted {
+	border-top: 1px dotted #ddd;
+} 
+
+/* Description */
+
+.btQuoteItemDescription {
+	text-align: right;
+    font-size: 0.7em;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	pointer-events: none;
+}
+
+.btQuoteItemDescription:before {
+    content: ' ';
+	clear: both;
+	display: table;
+	width: 100%;
+}

@@ -1,0 +1,47 @@
+@page { 
+    size: 210mm 297mm; 
+    margin: 0;
+}
+body {
+	font-size: 15px;
+	line-height: 1.8;
+	page-break-inside: avoid;
+}
+* {
+	box-sizing: border-box !important;
+	background: #FFF !important;
+	color: #000 !important;
+}
+.animate {
+	display: block !important;
+	opacity: 1 !important;
+}
+.mainHeader, .btSidebar, .btSearchInner, .btAltLogo, .btVerticalHeaderTop, .slick-arrow, .slick-dots {
+	display: none !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+.bt_bb_section[style*="background-image"] {
+	background: #FFF !important;
+}
+.bt_bb_section:before {
+	display: none !important;
+}
+a {
+	text-decoration: none !important;
+	color: #000 !important;
+}
+.bt_bb_icon_holder:before, .bt_bb_icon_holder {
+	background: transparent !important;
+	box-shadow: none !important;
+	color: #000 !important;
+}
+.bt_bb_button a, .bt_bb_button a span {
+	background: #FFF !important;
+	color: #000 !important;
+	box-shadow: none !important;
+	border: 2px solid #000 !important;
+}
+.bt_bb_button a span {
+	border: 0 !important;
+}

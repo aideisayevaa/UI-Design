@@ -1,0 +1,15 @@
+.wpcf7-date{
+  width:100%;
+}
+.wpcf7-date:before{
+  width:100%;
+  content:attr(placeholder);
+}
+.wpcf7-date:hover:before{
+  width:0%;
+  content:"";
+}
+.wpcf7-date.placeholderclass:before{
+  width:0%;
+  content:"";
+}
