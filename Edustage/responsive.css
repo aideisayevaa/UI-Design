@@ -1,0 +1,278 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+    #register {
+        flex-wrap: wrap;
+    }
+
+    #register .container {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .timer {
+        width: 100%;
+    }
+
+    #register form {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .timer-heading .flex {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .teams {
+        flex-wrap: wrap;
+    }
+
+    .team {
+        width: 48%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    footer ul {
+        width: 21%;
+    }
+
+    .footer-bottom {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .fa-bars {
+        display: block !important;
+    }
+
+    .menu,
+    .header i {
+        display: none;
+    }
+
+    .header {
+        padding: 0 30px;
+    }
+
+    .feature {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature li {
+        width: 45%;
+    }
+
+    .courses {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .course {
+        width: 47%;
+    }
+
+    .events {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .event {
+        width: 77%;
+    }
+
+
+    .testimonials {
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial-img {
+        width: 50%;
+    }
+
+    .testimonial-img img {
+        width: 100%;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    footer ul {
+        width: 27%;
+    }
+
+    .footer-submit {
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom span {
+        font-size: 16px;
+        width: 100%;
+        line-height: 23px;
+    }
+
+    .footer-icons i {
+        margin: 30px 0 20px 0;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero-text {
+        width: 70%;
+        transform: translate(-50%, -75%);
+    }
+
+    .hero-text h3 {
+        font-size: 28px;
+    }
+
+    .hero-text span {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-buttons button {
+        font-size: 10px;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+    }
+
+    .heading span {
+        font-size: 14px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .feature li {
+        width: 100%;
+    }
+
+    .courses {
+        gap: 50px;
+    }
+
+    .course {
+        width: 100%;
+    }
+
+    .timer-item {
+        padding: 15px 0;
+        width: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .timer-item b {
+        font-size: 25px;
+    }
+
+    .timer-item small {
+        font-size: 17px;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .event {
+        width: 100%;
+    }
+
+    .event-details {
+        height: 100%;
+    }
+
+    .testimonial-img {
+        width: 100%;
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+
+    footer ul {
+        width: 46%;
+    }
+
+    .newsletter {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .event-details {
+        padding: 15px;
+    }
+
+    .event-time-details {
+        padding: 0 0 0 30px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+
+    .event-date p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-details p {
+        line-height: 23px;
+        margin: 25px 0 12px 0;
+        font-size: 13px;
+    }
+
+    .event-details .btn {
+        margin: 3px 0;
+        padding: 10px 10px;
+        font-size: 9px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-email {
+        width: 120% !important;
+    }
+
+    .footer-submit {
+        transform: translateX(110%);
+    }
+}

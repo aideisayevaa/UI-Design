@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header>
+        <div class="header container flex j-between a-center">
+            <a href="#" class="logo">
+                <img src="data:image/webp;base64,UklGRhwFAABXRUJQVlA4TBAFAAAvokAJEBfkNrZtVdn/4+5QCi3Qf0oEqbvee05IC5Br205Q7SS4jliMKIAK6Io+KYC5u3/XxEFs20q1cYcwkIAWxKYBAfzr8+s2tm1VWd+z/6EwWqE5Iq2A1DV2d0/gcD0C8AMz0AUtMDZft4CcUA5chHKQ/56y5wIXAeGMIiScPhQfhKDeRlkqpVK19K5xRbDE0LdBEK5Z/vtSukFELGR4qflzcN4Q3szVujGrKJ2UHhBKDwfl+JEqVSpqxV8pv3NxrDzzRkXZLRKHp6db4XJK/Nr7czPrs9yMrvev55vy+3YQneLPy6xy/UdH/UVAAiIQgBRkICtEMSj/MVmANviBE/gOR6q6nMxW07fBIOOmNomTZnWwnZc+n0a85e/1cEkW459m3yoCQAheYAMeYATOoANe4AH+YAquYA6ehfhQyBQlU8qUCgZq17YpkpoXd9i4O3HDJe4BBqqrq72q8LhNnLj99be6pndWTj4+T0T/J0AW/OVX2ez++dP81mbn9x+42fn25+/m5K0tO3dsXv74ca6f27Z1+6blt+/nycNbNyMXr1/+EB+8/s0848v33r18/eIyGZLr3LUZeeOr+fjhrbzj9pszXluiMpJhnTs34xtfz/P2rtyc8dwSuQ1g9v4r8+wxrke2hF0rJ+cTfHT2tfXIRJJmjZyY4ukjZ//XqvqBrDNcP7Cz5UhFMlHUVW0TRTOQfaVs3ShULmGbfmDvMkwzkK1hXdVFyrYD2dllq+JomTA+ZgaBiSSNcpHsVRdHK0EXxwUwPqaDTTmmh0hWygwx3S1XHTOdClyVTgDPzDonCEzMLZSL2RDAxEy/TDZqD0UBWmqPVShJMjS9oqk9VPC9YFC+9QoCmJgccgYVvGK9RF4VglJVYqK2AjddR7IXoFROYJQBwEiyBtBGkkZQqx5AN1KSZCvAEMmwPEUkaQVAS3IQp6wAqFelFQCegWUW+oE0ADgSIulFD6mOpBcAJpK0S+OUaEsySEMyiHaTtSTZFTKeo2lL67KqRJsKJGuFIZJuaVqVGaQjiVWyiuRQmwnqEMeNMJI0iS5h4oLL0y3UkBxWCS5Fsl2kiNkjxfpD6ZYBphvhsIBXoWu6NfL3g5PVkQymGE9g1QDYelAss2wkWQlgUlgMqirGzQJH79k6mYskjSQJwEWSiXKyFmgEQKGqLBdJL1khkk1eINlKZt6z92+drlB9ooo1YFWjhhQCyUr5hIkkDQD4SDYLBVWN9JGkAVDEVB9JWmUCmPXPo1uT+6ZBH0n60tg+krXAR5JdYX3MYlU4HxNQwQocSWKks2WCnUXHEatYGRdHCsWmMFUkg8k4du9Wve/AykRGjTeCUo2rRo13gipmA0BgUozKLAAMatwJ0KrxjGd2byX37D+0wqlQhIxOANQLISyCNsepOhEELq8WAGEhNDmFpP59aCu598BKeiKgSXknSZfwJUmv0Cf6egSlT3VGku0IrE9UfSQ7hS7R9mOwPtUaSR2/b+ue/YdW9G13P/LEi1MBtiyskUxbopBsUwKUbNoSVjJZwlJ0UcJKrgFLgBIyAFNaFKJnJ+Z/Pblr74EV8s7PHnvqhZeP6MnWbRN76CqStCO5sxP/PbD/4F0PP/78S0dyNxofGZwpuqhlik8+/fjU6TMLv7qxmJjtJsl9E8zdUOByapnyfMZbn4MZ5zcWmC7VFzLp1Yy3vwAzrm4wAAoLGJn40pULI3wHHL1w5dLGs6o="
+                    alt="">
+            </a>
+            <div class="flex">
+                <ul class="menu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Pages</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Course Details</a></li>
+                            <li><a href="#">Elements</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <i class="fa fa-search"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-text">
+            <span>BEST ONLINE EDUCATION SERVICE IN THE WORLD</span>
+            <h3>ONE STEP AHEAD THIS SEASON</h3>
+            <div class="hero-buttons">
+                <button class="hero-buttons-left">Learn More</button>
+                <button class="btn hero-buttons-right">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Feature -->
+    <section id="feature">
+        <div class="container">
+            <div class="heading">
+                <h2>Awesome Feature</h2>
+                <span>Replenish man have thing gathering lights yielding shall you</span>
+            </div>
+            <ul class="feature flex j-between">
+                <li>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h4>Scholarship Facility</h4>
+                    <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-book-open"></i>
+                    <h4>Scholarship Facility</h4>
+                    <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <h4>Scholarship Facility</h4>
+                    <p>One make creepeth, man bearing theira firmament won't great heaven</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- Courses -->
+
+    <section id="courses">
+        <div class="container">
+            <div class="heading">
+                <h2>Our Popular Courses</h2>
+                <span>Replenish man have thing gathering lights yielding shall you</span>
+            </div>
+            <div class="courses flex j-around">
+                <div class="course">
+                    <div class="course-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/courses/xc1.jpg.pagespeed.ic.T_uhS3u3y1.webp"
+                            alt="">
+                    </div>
+                    <div class="course-details">
+                        <div class="tag">Design</div>
+                        <h4>Social Media Network</h4>
+                        <p>
+                            One make creepeth man bearing their one firmament won't fowl
+                            meat over sea</p>
+                        <div class="author flex a-center">
+                            <img src="https://preview.colorlib.com/theme/edustage/img/courses/xauthor3.png.pagespeed.ic.JqBWNrvoU0.webp"
+                                alt="">
+                            <span>Cameron</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/courses/xc1.jpg.pagespeed.ic.T_uhS3u3y1.webp"
+                            alt="">
+                    </div>
+                    <div class="course-details">
+                        <div class="tag">Design</div>
+                        <h4>Social Media Network</h4>
+                        <p>
+                            One make creepeth man bearing their one firmament won't fowl
+                            meat over sea</p>
+                        <div class="author flex a-center">
+                            <img src="https://preview.colorlib.com/theme/edustage/img/courses/xauthor3.png.pagespeed.ic.JqBWNrvoU0.webp"
+                                alt="">
+                            <span>Cameron</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/courses/xc1.jpg.pagespeed.ic.T_uhS3u3y1.webp"
+                            alt="">
+                    </div>
+                    <div class="course-details">
+                        <div class="tag">Design</div>
+                        <h4>Social Media Network</h4>
+                        <p>
+                            One make creepeth man bearing their one firmament won't fowl
+                            meat over sea</p>
+                        <div class="author flex a-center">
+                            <img src="https://preview.colorlib.com/theme/edustage/img/courses/xauthor3.png.pagespeed.ic.JqBWNrvoU0.webp"
+                                alt="">
+                            <span>Cameron</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Register -->
+    <section id="register">
+        <div class="container flex j-between">
+            <div class="timer">
+                <div class="timer-heading">
+                    <h2>Register Now</h2>
+                    <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first
+                        telescope.
+                        It’s exciting to think about setting up your own viewing station.</p>
+                    <div class="flex j-between">
+                        <div class="timer-item"><b>150</b> <small>days</small></div>
+                        <div class="timer-item"><b>23</b> <small>hour</small></div>
+                        <div class="timer-item"><b>47</b> <small>mins</small></div>
+                        <div class="timer-item"><b>59</b> <small>secs</small></div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="form-heading">
+                    <h4>Courses for free</h4>
+                    <span>It is high time for learning</span>
+                </div>
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Phone Number" />
+                <input type="email" placeholder="Your Email Address" />
+                <input type="submit" value="SUBMIT" class="btn">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Teams -->
+    <section id="teams">
+        <div class="container">
+            <div class="heading">
+                <h2>Our Expert Trainers</h2>
+                <span>Replenish man have thing gathering lights yielding shall you</span>
+            </div>
+            <div class="teams flex j-between a-center">
+                <div class="team">
+                    <div class="team-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/trainer/xt1.jpg.pagespeed.ic.K0AD1qx4ww.webp"
+                            alt="">
+                    </div>
+                    <div class="team-details">
+                        <h5>Mated Nithan</h5>
+                        <span>Sr. web designer</span>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the.</p>
+                        <div class="socials ">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/trainer/xt2.jpg.pagespeed.ic.Wnnxjw3cXO.webp"
+                            alt="">
+                    </div>
+                    <div class="team-details">
+                        <h5>Mated Nithan</h5>
+                        <span>Sr. web designer</span>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the.</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/trainer/xt3.jpg.pagespeed.ic.l__z3e6GGe.webp"
+                            alt="">
+                    </div>
+                    <div class="team-details">
+                        <h5>Mated Nithan</h5>
+                        <span>Sr. web designer</span>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the.</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/trainer/xt4.jpg.pagespeed.ic.BmplIR4tbn.webp"
+                            alt="">
+                    </div>
+                    <div class="team-details">
+                        <h5>Mated Nithan</h5>
+                        <span>Sr. web designer</span>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the.</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Events -->
+    <section id="events">
+        <div class="container">
+            <div class="heading">
+                <h2>Upcoming Events</h2>
+                <span>Replenish man have thing gathering lights yielding shall you</span>
+            </div>
+            <div class="events flex j-between">
+                <div class="event">
+                    <div class="event-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/event/xe1.jpg.pagespeed.ic.Xjf7ZFLDLk.webp"
+                            alt="">
+                    </div>
+                    <div class="event-details">
+                        <div class="event-time flex">
+                            <div class="event-date">
+                                <p>15</p>
+                                <span>Jun</span>
+                            </div>
+                            <div class="event-time-details">
+                                <div>
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span> 12:00 AM - 12:30 AM</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Hilton</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>One make creepeth man for so bearing their firmament won't fowl meat over seas great</p>
+                        <button class="btn">View details</button>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/event/xe2.jpg.pagespeed.ic.3XyEgSPjzA.webp"
+                            alt="">
+                    </div>
+                    <div class="event-details">
+                        <div class="event-time flex">
+                            <div class="event-date">
+                                <p>15</p>
+                                <span>Jun</span>
+                            </div>
+                            <div class="event-time-details">
+                                <div>
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span> 12:00 AM - 12:30 AM</span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Hilton</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>One make creepeth man for so bearing their firmament won't fowl meat over seas great</p>
+                        <button class="btn">View details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="event-arrow">
+                <a href="#">VIEW ALL EVENT <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="heading">
+                <h2>Client say about me</h2>
+                <span>Replenish man have thing gathering lights yielding shall you</span>
+            </div>
+            <div class="testimonials flex j-between">
+                <div class="testimonial flex j-around a-center">
+                    <div class="testimonial-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/testimonials/xt2.jpg.pagespeed.ic.fEmOIqdNG4.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h4>Davil Saden</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deleniti excepturi rem? Minus
+                            illum alias nemo delectus magni distinctio ut.</p>
+                    </div>
+                </div>
+                <div class="testimonial flex j-around a-center">
+                    <div class="testimonial-img">
+                        <img src="https://preview.colorlib.com/theme/edustage/img/testimonials/xt1.jpg.pagespeed.ic.Y175GUW333.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h4>Davil Saden</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deleniti excepturi rem? Minus
+                            illum alias nemo delectus magni distinctio ut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+
+            <ul>
+                <li class="footer-heading">Quick Links</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="footer-heading">Quick Links</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="footer-heading">Quick Links</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="footer-heading">Quick Links</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="newsletter">
+                <h6 class="footer-heading">Newsletter</h6>
+                <p>You can trust us. we only send promo offers,</p>
+                <form class="footer-form">
+                    <input type="email" class="footer-email" placeholder="Your Email Address" />
+                    <input type="submit" value="SUBSCRIBE" class="footer-submit">
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom flex j-between a-center">
+            <span>Copyright ©2022 All rights reserved | This template is made with by Colorlib</span>
+            <div class="footer-icons">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
